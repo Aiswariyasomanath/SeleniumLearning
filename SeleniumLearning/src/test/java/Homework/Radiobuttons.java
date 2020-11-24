@@ -27,8 +27,16 @@ public class Radiobuttons {
 		driver.findElement(By.xpath("//*[@id=\"post-1398\"]/div/div[2]/h2/a")).click();
 		driver.findElement(By.xpath("//*[@id=\"section-form-input-type-learning-37\"]/ul/li[1]/a/span")).click();
 		driver.findElement(By.name("radioButton")).click();
+		//casting to TakesScreenchot object ie, ts
 		TakesScreenshot ts =(TakesScreenshot)driver;
+		
+		// calling method getScreenshotAs on ts object, which returns a File object, and assigning that 
+		// returned object to source
 		File source = ts.getScreenshotAs(OutputType.FILE);
+		
+		// Calling copyFile static method on FileUtils class, which accept 2 File objects as parameters
+		// first parameter is the screenshot file object from above
+		// second parameter is a File object created on runtime which specifies the location where the screenshot to be copied over
 		FileUtils.copyFile(source,new File(("src/test/resources/radiobuttons/page.png")));
 		
 	}
