@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Orangehrmlogin">
+      <class name="com.TestNG.C2TaCrossbrowser">
         <methods>
-          <include name="loginApp"/>
-          <include name="launchApp"/>
-          <include name="closeApp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="c2Talogin"/>
         </methods>
-      </class> <!-- com.TestNG.Orangehrmlogin -->
+      </class> <!-- com.TestNG.C2TaCrossbrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,38 +2,54 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20037" started-at="2020-11-25T17:14:02 EST" finished-at="2020-11-25T17:14:22 EST">
+  <suite name="Suite" duration-ms="25202" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:40 EST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20037" started-at="2020-11-25T17:14:02 EST" finished-at="2020-11-25T17:14:22 EST">
-      <class name="com.TestNG.C2Ta">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.TestNG.C2Ta@15d0c81b]" name="launchApp" is-config="true" duration-ms="9623" started-at="2020-11-25T17:14:02 EST" finished-at="2020-11-25T17:14:11 EST">
+    <test name="TestOnChrome" duration-ms="24220" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:39 EST">
+      <class name="com.TestNG.C2TaCrossbrowser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestNG.C2TaCrossbrowser@17579e0f]" name="setup" is-config="true" duration-ms="4940" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.TestNG.C2Ta@15d0c81b]" name="loginApp" duration-ms="4065" started-at="2020-11-25T17:14:17 EST" finished-at="2020-11-25T17:14:21 EST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="c2Talogin()[pri:0, instance:com.TestNG.C2TaCrossbrowser@17579e0f]" name="c2Talogin" duration-ms="18900" started-at="2020-11-26T23:33:20 EST" finished-at="2020-11-26T23:33:39 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.TestNG.C2Ta@15d0c81b]" name="closeApp" is-config="true" duration-ms="150" started-at="2020-11-25T17:14:21 EST" finished-at="2020-11-25T17:14:22 EST">
+        </test-method> <!-- c2Talogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.C2TaCrossbrowser@17579e0f]" name="tearDown" is-config="true" duration-ms="292" started-at="2020-11-26T23:33:39 EST" finished-at="2020-11-26T23:33:39 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- com.TestNG.C2Ta -->
-      <class name="com.TestNG.Orangehrmlogin">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.TestNG.Orangehrmlogin@74650e52]" name="launchApp" is-config="true" duration-ms="6072" started-at="2020-11-25T17:14:11 EST" finished-at="2020-11-25T17:14:17 EST">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.C2TaCrossbrowser -->
+    </test> <!-- TestOnChrome -->
+    <test name="TestOnFirefox" duration-ms="25202" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:40 EST">
+      <class name="com.TestNG.C2TaCrossbrowser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestNG.C2TaCrossbrowser@480bdb19]" name="setup" is-config="true" duration-ms="6898" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:22 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.TestNG.Orangehrmlogin@74650e52]" name="loginApp" duration-ms="1604" started-at="2020-11-25T17:14:17 EST" finished-at="2020-11-25T17:14:19 EST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="c2Talogin()[pri:0, instance:com.TestNG.C2TaCrossbrowser@480bdb19]" name="c2Talogin" duration-ms="17094" started-at="2020-11-26T23:33:22 EST" finished-at="2020-11-26T23:33:39 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.TestNG.Orangehrmlogin@74650e52]" name="closeApp" is-config="true" duration-ms="69" started-at="2020-11-25T17:14:22 EST" finished-at="2020-11-25T17:14:22 EST">
+        </test-method> <!-- c2Talogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.C2TaCrossbrowser@480bdb19]" name="tearDown" is-config="true" duration-ms="1169" started-at="2020-11-26T23:33:39 EST" finished-at="2020-11-26T23:33:40 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- com.TestNG.Orangehrmlogin -->
-    </test> <!-- Test -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.C2TaCrossbrowser -->
+    </test> <!-- TestOnFirefox -->
   </suite> <!-- Suite -->
 </testng-results>
