@@ -20,6 +20,7 @@ public class Multiplewindows {
 		driver.findElement(By.id("button1")).click();
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> it = windows.iterator();
+	
 		String parent = it.next();
 		String child = it.next();
 		System.out.println(driver.getTitle());

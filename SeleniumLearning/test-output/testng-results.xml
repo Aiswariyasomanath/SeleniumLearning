@@ -2,54 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25202" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:40 EST">
+  <suite name="Default suite" duration-ms="21109" started-at="2020-11-27T23:10:19 EST" finished-at="2020-11-27T23:10:40 EST">
     <groups>
     </groups>
-    <test name="TestOnChrome" duration-ms="24220" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:39 EST">
-      <class name="com.TestNG.C2TaCrossbrowser">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestNG.C2TaCrossbrowser@17579e0f]" name="setup" is-config="true" duration-ms="4940" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:20 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="21109" started-at="2020-11-27T23:10:19 EST" finished-at="2020-11-27T23:10:40 EST">
+      <class name="com.TestNG.Flipcart">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.TestNG.Flipcart@1786dec2]" name="launchApp" is-config="true" duration-ms="11586" started-at="2020-11-27T23:10:19 EST" finished-at="2020-11-27T23:10:31 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="c2Talogin()[pri:0, instance:com.TestNG.C2TaCrossbrowser@17579e0f]" name="c2Talogin" duration-ms="18900" started-at="2020-11-26T23:33:20 EST" finished-at="2020-11-26T23:33:39 EST">
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="searchproduct()[pri:1, instance:com.TestNG.Flipcart@1786dec2]" name="searchproduct" duration-ms="5271" started-at="2020-11-27T23:10:31 EST" finished-at="2020-11-27T23:10:36 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c2Talogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.C2TaCrossbrowser@17579e0f]" name="tearDown" is-config="true" duration-ms="292" started-at="2020-11-26T23:33:39 EST" finished-at="2020-11-26T23:33:39 EST">
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="productName()[pri:2, instance:com.TestNG.Flipcart@1786dec2]" name="productName" duration-ms="4137" started-at="2020-11-27T23:10:36 EST" finished-at="2020-11-27T23:10:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.Flipcart@1786dec2]" name="tearDown" is-config="true" duration-ms="60" started-at="2020-11-27T23:10:40 EST" finished-at="2020-11-27T23:10:40 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.C2TaCrossbrowser -->
-    </test> <!-- TestOnChrome -->
-    <test name="TestOnFirefox" duration-ms="25202" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:40 EST">
-      <class name="com.TestNG.C2TaCrossbrowser">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestNG.C2TaCrossbrowser@480bdb19]" name="setup" is-config="true" duration-ms="6898" started-at="2020-11-26T23:33:15 EST" finished-at="2020-11-26T23:33:22 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="c2Talogin()[pri:0, instance:com.TestNG.C2TaCrossbrowser@480bdb19]" name="c2Talogin" duration-ms="17094" started-at="2020-11-26T23:33:22 EST" finished-at="2020-11-26T23:33:39 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c2Talogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestNG.C2TaCrossbrowser@480bdb19]" name="tearDown" is-config="true" duration-ms="1169" started-at="2020-11-26T23:33:39 EST" finished-at="2020-11-26T23:33:40 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.C2TaCrossbrowser -->
-    </test> <!-- TestOnFirefox -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.TestNG.Flipcart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
