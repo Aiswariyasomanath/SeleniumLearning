@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18397" started-at="2020-11-30T20:39:36 EST" finished-at="2020-11-30T20:39:54 EST">
+  <suite name="Default suite" duration-ms="21220" started-at="2020-11-30T22:16:16 EST" finished-at="2020-11-30T22:16:37 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18397" started-at="2020-11-30T20:39:36 EST" finished-at="2020-11-30T20:39:54 EST">
+    <test name="Default test" duration-ms="21220" started-at="2020-11-30T22:16:16 EST" finished-at="2020-11-30T22:16:37 EST">
       <class name="com.TestNG.Flipcartfilter">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.TestNG.Flipcartfilter@3b088d51]" name="launchApp" is-config="true" duration-ms="11918" started-at="2020-11-30T20:39:36 EST" finished-at="2020-11-30T20:39:48 EST">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.TestNG.Flipcartfilter@3b088d51]" name="launchApp" is-config="true" duration-ms="11912" started-at="2020-11-30T22:16:16 EST" finished-at="2020-11-30T22:16:28 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="searchproduct()[pri:1, instance:com.TestNG.Flipcartfilter@3b088d51]" name="searchproduct" duration-ms="6268" started-at="2020-11-30T20:39:48 EST" finished-at="2020-11-30T20:39:54 EST">
+        <test-method status="PASS" signature="searchproduct()[pri:1, instance:com.TestNG.Flipcartfilter@3b088d51]" name="searchproduct" duration-ms="6308" started-at="2020-11-30T22:16:28 EST" finished-at="2020-11-30T22:16:34 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="printDetails()[pri:2, instance:com.TestNG.Flipcartfilter@3b088d51]" name="printDetails" duration-ms="167" started-at="2020-11-30T20:39:54 EST" finished-at="2020-11-30T20:39:54 EST">
+        <test-method status="PASS" signature="printDetails()[pri:2, instance:com.TestNG.Flipcartfilter@3b088d51]" name="printDetails" duration-ms="169" started-at="2020-11-30T22:16:34 EST" finished-at="2020-11-30T22:16:35 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printDetails -->
+        <test-method status="PASS" signature="screenShot()[pri:3, instance:com.TestNG.Flipcartfilter@3b088d51]" name="screenShot" duration-ms="2772" started-at="2020-11-30T22:16:35 EST" finished-at="2020-11-30T22:16:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
       </class> <!-- com.TestNG.Flipcartfilter -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
